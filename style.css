@@ -57,14 +57,25 @@
     filter: grayscale();
 }
 .ex-7-img:hover{
-   20% {filter: invert(5);} 
-   60% {filter: sepia(3);} 
-    transition: all 1s;
+     filter: sepia(100%) saturate(150%);  
+    transition: ease-in 1s;
 }
+.ex-8-img:hover{
+    filter:invert(60%) saturate(80%); 
+    border-radius: 30px;
+    transition: ease-in 1s;
+}
+
 
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+}
+.ex-9-img:hover{
+    filter: brightness(60%) saturate(80%); 
+    border-radius: 30px;
+    width: 300px;
+    transition: ease-in 1s;
 }
 .ex-10-icon {
     font-size: 60px;
